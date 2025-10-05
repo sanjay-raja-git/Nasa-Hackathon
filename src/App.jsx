@@ -18,10 +18,9 @@ function App() {
       <div className="max-w-5xl mx-auto space-y-10">
         <AQICard city={city} />
         <Highlights city={city} />
-        <HourlyAQI city={city} /> {/* Replaces WeatherCard */}
+        <HourlyAQI city={city} /> 
         <WeatherCard city={city} />
-        
-        <OtherCities />
+         <OtherCities />
       </div>
 
       <Footer />
